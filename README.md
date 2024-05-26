@@ -3,7 +3,7 @@ Etch A Sketch with Odin Project
 
 # Csyntax Etch-a-Sketch Project
 
-This project is a modern take on the classic Etch-a-Sketch toy, implemented using HTML, CSS, and JavaScript. Users can draw on a grid by hovering over the grid squares, which progressively darken with each interaction. Additionally, users can reset the grid size and restart the sketch with the current grid size using the provided buttons.
+This project is a modern take on the classic Etch-a-Sketch toy, implemented using HTML, CSS, and JavaScript. Users can draw on a grid by hovering over the grid squares, which progressively darken with each interaction. Additionally, users can reset the grid size and restart the sketch with the current grid size using the provided buttons. The project has been updated to include new features and improvements.
 
 ## How to Use
 
@@ -11,6 +11,9 @@ This project is a modern take on the classic Etch-a-Sketch toy, implemented usin
 2. Hover over the grid squares to draw. Each interaction will darken the square progressively until it turns completely black.
 3. Use the "Reset Grid" button to enter a new grid size (maximum 100).
 4. Use the "Restart Sketch" button to clear the grid and restart with the current grid size.
+5. Use the "Normal Color" button to switch to normal drawing mode (default).
+6. Use the "Random Color" button to switch to random color drawing mode.
+7. Use the "Eraser" button to switch to eraser mode for erasing drawn content.
 
 ## Technologies Used
 
@@ -34,7 +37,7 @@ This project is a modern take on the classic Etch-a-Sketch toy, implemented usin
 
 ## Changing the Grid Size
 
-The default grid size is 16x16. You can change the initial grid size by modifying the parameter in the `createGrid` function call in `script.js`.
+The default grid size is 16x16. You can change the initial grid size by modifying the parameter in the `createGrid` function call in `jsScript.js`.
 
 For example, to set the initial grid size to 32x32, change:
 
